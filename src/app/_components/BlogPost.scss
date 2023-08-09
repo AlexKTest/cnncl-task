@@ -1,0 +1,12 @@
+@import '../_styles/colors.scss';
+
+.ht-post {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border-top: 3px solid $post-top-border-color;
+}
+
+.ht-post__header {
+  text-transform: uppercase;
+}
